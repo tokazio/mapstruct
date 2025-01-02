@@ -27,6 +27,7 @@
         <module>core</module>
         <module>core-jdk8</module>
         <module>processor</module>
+        <module>ksp</module>
     </modules>
     <properties>
         <maven.deploy.skip>true</maven.deploy.skip>
@@ -44,6 +45,7 @@
                         <java>SLASHSTAR_STYLE</java>
                     </mapping>
                 </configuration>
+                <inherited>false</inherited>
             </plugin>
         </plugins>
     </build>
